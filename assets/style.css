@@ -267,7 +267,8 @@ button:hover{
         position: absolute;
         right: 10px;
         top: 46%;
-        left: 15px;               
+        left: 15px;
+        filter: grayscale(0%);              
     }
 
     .header-text h1{
