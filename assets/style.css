@@ -236,7 +236,7 @@
 button{
     font-size: 25px;
     padding: 10px 20px;
-    margin: 50px 0 50px 140px;
+    margin: 50px 0 50px 160px;
     background-color: rgb(83, 83, 83);
     border: none;
     outline: none;
@@ -259,8 +259,167 @@ button:hover{
     }
     .print-area * {
         visibility: visible;
+    }
+    
+    .header img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 10px;
+        top: 46%;
+        left: 15px;               
+    }
+
+    .header-text h1{
+        font-size: 23px;       
+    }
+    .header-text p{
+        font-size: 15px;
+    }   
+
+    .left-area {
+        width: 30%;
+        background-color: rgb(236, 236, 236);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .left-area .contact {
+        margin-top: 80px;
+        padding: 0 20px;
+    }
+
+    .contact h4{
+        font-size: 20px;
+        font-weight: normal;
+        margin:  20px 0;
+    }
+    
+    .contact h5{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+    .contact p{
+        font-size: 11px;    
+    }
+    
+    .skills  {
+        margin-top: 30px;    
+    }
+    
+    .skills h1 {
+        font-size: 18px;
+        font-weight: normal;
     }    
-}
+    
+    .bars .bar p {
+        font-size: 8px;
+        font-weight: bold;
+    }  
+    
+    .follow h1{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .follow h4{
+        font-size: 15px;
+        margin: 10px 0;    
+    }
+    
+    .follow p{
+        font-size: 10px;
+        color: gray;       
+        cursor: pointer;
+    }
+    
+    .rigth-area {
+        width: 70%;
+        padding: 10px;     
+    }
+    
+    .rigth-area h1{
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    
+    .rigth-area h1 span {
+        margin-right: 5px;
+        font-size: 15px;
+        color: lightgray;
+    }
+    
+    .rigth-area p {
+        padding-left: 30px;
+        text-align: justify;
+        word-break: break-all;
+        font-size: 11px;
+        color: gray;
+        margin-top: 15px;
+    }
+    
+    .work-group {
+        margin: 10px 0;
+    }
+    
+    .work .work-group {
+        position: relative;
+    }
+    
+    .work-group h3{
+        font-size: 15px;
+        font-weight: normal;
+        padding-left: 30px;
+    }
+    
+    .work-group h4{
+        font-size: 8px;
+        padding-left: 30px;
+        font-weight: normal;
+        color: gray;
+    }
+    
+    .work-group span {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 6px;    
+    }
+    
+    .education {
+        margin-top: 30px;    
+    }
+    
+    .edu-group {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .edu-group h4 {
+        padding-left: 30px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    
+    .edu-group span {
+        position: absolute;
+        top: 12px;
+        right: 0;
+        font-size: 6px;
+        font-weight: bold;
+    }
+    
+    .edu-group p{
+        padding-left: 30px;
+    }  
+}  
+
+
 
 @media only screen and (max-width:1280px) {
    
@@ -282,7 +441,7 @@ button:hover{
 
 } 
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:990px) {
    
     .header-text h1{
         font-size: 20px;       
@@ -464,7 +623,181 @@ button:hover{
     }   
 }  
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width:750px) {
+   
+    .header-text h1{
+        font-size: 12px;       
+    }
+    .header-text p{
+        font-size: 10px;
+    }
+
+    .header img {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: 60%;
+        left: 20px;               
+    }
+
+    .left-area {
+        width: 40%;
+        background-color: rgb(236, 236, 236);
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .left-area .contact {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .contact h4{
+        font-size: 18px;
+        font-weight: normal;
+        margin:  20px 0;
+    }
+    
+    .contact h5{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    
+    .contact p{
+        font-size: 8px;    
+    }
+    
+    .skills  {
+        margin-top: 30px;    
+    }
+    
+    .skills h1 {
+        font-size: 18px;
+        font-weight: normal;
+    }    
+    
+    .bars .bar p {
+        font-size: 8px;
+        font-weight: bold;
+    }  
+    
+    .follow h1{
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .follow h4{
+        font-size: 12px;
+        margin: 10px 0;    
+    }
+    
+    .follow p{
+        font-size: 8px;
+        color: gray;       
+        cursor: pointer;
+    }
+    
+    .rigth-area {
+        width: 60%;
+        padding: 10px;     
+    }
+    
+    .rigth-area h1{
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    
+    .rigth-area h1 span {
+        margin-right: 5px;
+        font-size: 15px;
+        color: lightgray;
+    }
+    
+    .rigth-area p {
+        padding-left: 10px;
+        text-align: justify;
+        word-break: break-all;
+        font-size: 7.5px;
+        color: gray;
+        margin-top: 15px;
+    }
+    
+    .work-group {
+        margin: 10px 0;
+    }
+    
+    .work .work-group {
+        position: relative;
+    }
+    
+    .work-group h3{
+        font-size: 10px;
+        font-weight: normal;
+        padding-left: 10px;
+    }
+    
+    .work-group h4{
+        font-size: 8px;
+        padding-left: 10px;
+        font-weight: normal;
+        color: gray;
+    }
+    
+    .work-group span {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 6px;    
+    }
+    
+    .education {
+        margin-top: 30px;    
+    }
+    
+    .edu-group {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .edu-group h4 {
+        padding-left: 10px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .edu-group span {
+        position: absolute;
+        top: 12px;
+        right: 0;
+        font-size: 6px;
+        font-weight: bold;
+    }
+    
+    .edu-group p{
+        padding-left: 10px;
+    }
+
+    button{
+        font-size: 15px;
+        padding: 5px 10px;
+        margin: 0 20px 40px 180px;      
+        background-color: rgb(83, 83, 83);
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        cursor: pointer;
+        transition: .5s;
+    }   
+}  
+
+@media only screen and (max-width:650px) {
    
     .header-text h1{
         font-size: 12px;       
